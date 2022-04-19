@@ -138,6 +138,8 @@ ol {
 
 .section {
   background: var(--hero-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .section-btn {
