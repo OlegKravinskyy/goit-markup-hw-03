@@ -56,13 +56,52 @@ ol {
   padding-right: 15px;
   margin: 0 auto;
   background-color: aqua;
+  outline: 1px solid tomato;
 }
 
 .header {
   color: var(--secondary-color);
   padding-top: 24;
   padding-bottom: 25px;
-  outline: 1px solid tomato;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-connect {
+  margin-left: auto;
+}
+
+.header-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.header-item:not(last-child) {
+  margin-right: 50px;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.header-link:hover {
+  color: var(--logo-color-left);
+}
+
+.header-link:not(last-child) {
+  margin-left: 50px;
 }
 
 .hidden-title {
@@ -78,6 +117,7 @@ ol {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
   color: var(--logo-color-left);
 }
 
@@ -100,25 +140,6 @@ ol {
   color: var(--logo-color-two);
 }
 
-.header-item {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-}
-
-.header-link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--main-color);
-}
-
-.header-link:hover {
-  color: var(--logo-color-left);
-}
-
 .current {
   color: var(--logo-color-left);
 }
@@ -132,6 +153,8 @@ ol {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 40px;
+  max-width: 650px;
+  margin: 0 auto;
   color: var(--logo-color-two);
   outline: 1px solid tomato;
 }
@@ -140,6 +163,19 @@ ol {
   background: var(--hero-color);
   padding-top: 200px;
   padding-bottom: 280px;
+  margin-bottom: 94px;
+  /* outline: 1px solid tomato;
+  background-color: yellow; */
+}
+
+.section-two {
+  margin-bottom: 47px;
+  outline: 1px solid tomato;
+  background-color: green;
+}
+
+.section-three {
+  margin-bottom: 94px;
 }
 
 .section-btn {
