@@ -7,6 +7,7 @@
   --hero-color: #2f303a;
   --btn-hover-color: #188ce8;
   --address-text-color: rgba(255, 255, 255, 0.6);
+  --section-team-color:#F5F4FA;
 }
 
 a {
@@ -55,7 +56,6 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  background-color: aqua;
   outline: 1px solid tomato;
 }
 
@@ -198,15 +198,25 @@ ol {
   margin-right: 30px;
 }
 
+.section-for{
+  background-color: var(--section-team-color);
+}
+
 .section-for-list {
   display: flex;
   margin-left: -30px;
   padding-bottom: 94px;
 }
 
-.sectin-for-img{
-  flex-basis: calc((100%-90px)/3);
+.section-for-img{
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
+}
+
+.section-for-img{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--logo-color-two);
 }
 
 .section-btn {
@@ -276,8 +286,18 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  color: var(--secondary-color) 1;
+  /* color: var(--secondary-color); */
 }
+
+.section-for-list{
+  background-color: var(--section-team-color);
+}
+
+
+/* .section-for-list{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+} */
 
 .section-for-name {
   font-weight: 500;
