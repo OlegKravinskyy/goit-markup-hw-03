@@ -60,8 +60,7 @@ ol {
 
 .header {
   color: var(--secondary-color);
-  /* padding-top: 24;
-  padding-bottom: 25px; */
+  border: 1px solid #ececec;
 }
 
 .header .container {
@@ -100,10 +99,6 @@ ol {
 .header-link:hover {
   color: var(--logo-color-left);
 }
-
-/* .header-link:not(last-child) {
-  margin-left: 50px;
-} */
 
 .hidden-title {
   width: 1px;
@@ -170,10 +165,8 @@ ol {
 }
 
 .section {
-  /* background-color: var(--secondary-color); */
   padding-top: 200px;
   padding-bottom: 200px;
-  /* flex-grow: 1; */
   background-image: url(../images/hero-img.jpg);
 }
 
@@ -355,17 +348,15 @@ ol {
   color: var(--logo-color-two);
 }
 
-.adress-text-link{
+.adress-text-link {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--address-text-color);
 }
 
-}
-
 .selection-btn {
-  margin-top: 80px;
+  margin-bottom: 50px;
   padding-top: 19px;
 }
 
@@ -403,12 +394,25 @@ ol {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-btn {
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+
+.btn-size {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-btn-style:not(last-child) {
@@ -443,16 +447,17 @@ ol {
   color: var(--secondary-color);
 }
 
+.portfolio-img-block {
+  display: block;
+}
+
 .portfolio-btn-style:hover {
   background-color: var(--logo-color-left);
   color: var(--logo-color-two);
 }
-/* .footer-list {
-  color: var(--logo-color-two);
-} */
 
 .footer-item {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer {
