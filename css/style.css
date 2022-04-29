@@ -325,7 +325,6 @@ ol {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 0;
   color: var(--secondary-color);
 }
 
@@ -381,7 +380,6 @@ ol {
 }
 
 .selection-btn {
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -394,10 +392,6 @@ ol {
 
 .portfolio-item {
   display: flex;
-}
-
-.flex-container {
-  margin-bottom: 94px;
 }
 
 .flex-element {
@@ -429,6 +423,10 @@ ol {
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+
+.btn-size:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn-size :not(:last-child) {
